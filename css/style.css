@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, .education-interests-box{
+    margin: 1em 1.25em 0 1.25em;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.name-box{
+    margin: 0 1.25em 0 1.25em;
+    background-color: #F0F0F0;
+    border-radius: 1em;
+}
+.name-box-inner {
+    margin: 0.75em;
+    text-align: left;
+}
+.name-box-inner p {
+    font-size: 10px;
+    line-height: 15px;
+}
+.name-box-inner h3{
+    margin-top: 1.5em;
+    margin-bottom: 0.32em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14.56px;
+}
+.name-box-inner span{
+    color:#5C5C5C;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+.languages-box{
+    background-color: #F0F0F0;
+    border-radius: 1em;
+    width: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.languages-box-inner{
+    margin: 0.75em;
+}
+.languages-box-inner h3{
+    margin-bottom: 1em;
+}
+
+.language {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.spanish-load{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.language-name{
+    margin-right: 1em;
+    font-size: 10px;
+    line-height: 10px;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.language-load-box{
+    display: flex;
+    justify-content: space-between;
+    max-height: 8em;
+}
+.language-load{
+    width: 11.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.english-load, .spanish-load, .france-load{
+    height: 1em;
+    background-color: #28D979;
+    width: 0;
+    border-radius: 0.3em;
+}
+.english-load {
+    animation: english-load 2s ease-in-out forwards;
+}
+.spanish-load {
+    animation: spanish-load 2s ease-in-out forwards;
+}
+.france-load {
+    animation: france-load 2s ease-in-out forwards;
+}
+
+
+/* Education Interests*/
+
+.education-box {
+    margin-right: 1.5em;
+    background-color: #F0F0F0;
+    border-radius: 1em;
+    max-width: 60%;
+}
+.education-box h3 {
+    padding: 0.75em;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.education-containers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education-container {
+    margin: 0.75em;
+    max-width: 7.25em;
+    border-radius: 1em;
+    background-color: white;
+    transition: all 0.5s;
+}
+.education-container:hover {
+    transform: scale(1.03);
+}
+
+
+.education-container:nth-child(1) {
+    background-color: #28D979;
+}
+
+.education-container-inner h3 {
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0;
+}
+.education-container-inner p {
+    padding-top: 0.8em;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+.education-container-inner ul {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+}
+.education-container-inner span {
+    font-size: 8px;
+    line-height: 12px;
+}
+.education-container-inner {
+    margin: 0.75em;
+}
+
+
+
+
+@keyframes english-load {
+    to{
+        width: 11.5em;
+    }
+}
+
+@keyframes spanish-load {
+    to{
+        width: 9em;
+    }
+}
+@keyframes france-load {
+    to{
+        width: 7.6em;
+    }
+}
