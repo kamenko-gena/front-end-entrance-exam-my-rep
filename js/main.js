@@ -25,20 +25,20 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.getElementById("download-btn").addEventListener("click", () => {
-    const content = document.documentElement.outerHTML;
-    const blob = new Blob([content], { type: "application/pdf" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
+    const tempElement = document.createElement("div");
 
-    a.href = url;
-    a.download = "resume-page.pdf";
-    document.body.appendChild(a);
+    document.querySelectorAll('[contenteditable="true"]').forEach((element) => {
+      tempElement.appendChild(element.cloneNode(true));
+    });
 
-    a.click();
+    const options = {
+      margin: 1,
+      filename: "sample.pdf",
+      image: { type: "jpeg", quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: "in", format: "letter", orientation: "portrait" },
+    };
 
-    setTimeout(() => {
-      document.body.removeChild(a);
-      URL.revokeObjectURL(url);
-    }, 0);
+    html2pdf().set(options).from(tempElement).save();
   });
 });

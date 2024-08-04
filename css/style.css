@@ -444,6 +444,7 @@ a {
 .download-btn {
     text-decoration: none;
     background-color: #28D979;
+    cursor: pointer;
     color: white;
     position: fixed;
     padding: 0.5em;
