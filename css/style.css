@@ -163,7 +163,7 @@ a {
     color: white;
 }
 
-.education-container:hover a {
+.education-container:hover ul {
     color: white;
 }
 
@@ -184,14 +184,19 @@ a {
     line-height: 15px;
 }
 
-.education-container-inner ul,
-a {
+.education-container-inner ul {
     color: #149063;
     font-weight: 400;
     font-size: 8px;
     line-height: 12px;
     transition: all 0.2s;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.education-container-inner li {
+    list-style-type: none;
+    padding-right: 0.2em;
 }
 
 .education-container-inner span {
