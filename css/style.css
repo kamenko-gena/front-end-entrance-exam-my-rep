@@ -35,22 +35,22 @@ a {
 }
 
 .name-box-inner:first-child p {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
 }
 
 .name-box-inner h3 {
     margin-top: 2em;
     margin-bottom: 0.32em;
     font-weight: 600;
-    font-size: 14px;
-    line-height: 14.56px;
+    font-size: 0.875rem;
+    line-height: 0.91rem;
 }
 
 .name-box-inner p {
     color: #5C5C5C;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
 }
 
 .languages-box {
@@ -64,8 +64,8 @@ a {
 .languages-box-inner {
     margin: 0.6em;
     padding: 0 0.8em;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
 }
 
 .languages-box-inner h3 {
@@ -85,8 +85,8 @@ a {
 
 .language-name {
     margin-right: 1em;
-    font-size: 10px;
-    line-height: 10.4px;
+    font-size: 0.625rem;
+    line-height: 0.041rem;
     padding-top: 0.2em;
     padding-bottom: 0.2em;
 }
@@ -140,8 +140,8 @@ a {
 .tools-container h3,
 .experience-container-box h3 {
     padding: 0.75em;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
 }
 
 .education-containers {
@@ -173,22 +173,22 @@ a {
 }
 
 .education-container-inner h3 {
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
     padding: 0;
 }
 
 .education-container-inner p {
     padding-top: 0.8em;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
 }
 
 .education-container-inner ul {
     color: #149063;
     font-weight: 400;
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 0.5rem;
+    line-height: 0.75rem;
     transition: all 0.2s;
     display: flex;
     flex-wrap: wrap;
@@ -201,8 +201,8 @@ a {
 
 .education-container-inner span {
     font-weight: 400;
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 0.5rem;
+    line-height: 0.75rem;
 }
 
 .education-container-inner {
@@ -236,9 +236,9 @@ a {
     background-color: white;
     transition: all 0.5s;
 
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 0.938rem;
 }
 
 .interest:hover {
@@ -253,8 +253,8 @@ a {
 .contacts-info p {
     padding: 0.75em;
     color: white;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 0.875rem;
+    line-height: 1.313rem;
 }
 
 .contacts {
@@ -264,9 +264,9 @@ a {
 
 .contacts a {
     color: #DDD;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 0.938rem;
     transition: all 0.5s;
 }
 
@@ -276,9 +276,9 @@ a {
 
 .contacts span {
     color: white;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 0.938rem;
 }
 
 
@@ -327,8 +327,8 @@ a {
     position: relative;
     top: 2em;
 
-    font-size: 5px;
-    line-height: 7.1px;
+    font-size: 0.313rem;
+    line-height: 0.444rem;
 }
 
 .tools {
@@ -361,8 +361,8 @@ a {
     text-align: center;
     width: fit-content;
 
-    font-size: 8px;
-    line-height: 12.4px;
+    font-size: 0.5rem;
+    line-height: 0.775rem;
 }
 
 .experience-container {
@@ -392,8 +392,8 @@ a {
 }
 
 .experience-container-title p {
-    font-size: 8px;
-    line-height: 12px;
+    font-size: 0.5rem;
+    line-height: 0.75rem;
     padding-top: 1em;
 }
 
@@ -413,23 +413,23 @@ a {
 
 .experience-inner-name h2 {
     margin-left: 0.75em;
-    font-size: 10px;
-    line-height: 15px;
+    font-size: 0.625rem;
+    line-height: 0.938rem;
 }
 
 .experience-inner-name p {
     margin-left: 1em;
-    font-size: 8px;
+    font-size: 0.5rem;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 0.75rem;
     color: #3F3D3D;
     transition: all 0.2s;
 }
 
 .experience-inner-ul {
-    font-size: 8px;
+    font-size: 0.5rem;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 0.75rem;
     text-align: left;
 }
 
@@ -486,11 +486,11 @@ a {
 
 @media (max-width: 450px) {
     .contacts-info p {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 
     .contacts {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
 
     .contacts span {
